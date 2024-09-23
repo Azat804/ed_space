@@ -1,7 +1,5 @@
 .section-education {
-  background: #242029;
-  position: relative;
-  z-index: 2;
+  background: #f3f6ef;
 }
 
 .education__title {
@@ -12,7 +10,12 @@
 }
 
 .education__wrapper {
-  padding: 79px 0px 84px 0px;
+  padding: 79px 154px 84px 150px;
+  background: #242029;
+  margin: 0 auto;
+  max-width: 1536px;
+  position: relative;
+  z-index: 2;
 }
 
 .education__description {

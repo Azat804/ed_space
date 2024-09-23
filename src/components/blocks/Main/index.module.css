@@ -4,6 +4,9 @@
 }
 
 .main__wrapper {
+  margin: 0 auto;
+  max-width: 1536px;
+  padding: 126px 104px 0px 149px;
   position: relative;
   display: flex;
   align-items: center;

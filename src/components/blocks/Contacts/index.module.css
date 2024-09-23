@@ -4,10 +4,12 @@
 }
 
 .contacts__inner {
+  max-width: 1536px;
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 0px 276px;
+  margin: 0 auto;
 }
 
 .contacts__inner-image {

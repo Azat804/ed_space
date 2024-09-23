@@ -1,12 +1,15 @@
 .footer {
-  background: #6bffca;
-  padding: 19px 0px;
+  background: #f3f6ef;
 }
 
 .footer__wrapper {
+  background: #6bffca;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1536px;
   align-items: center;
+  padding: 19px 153px;
 }
 
 .footer__text {
