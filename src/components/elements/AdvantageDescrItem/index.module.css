@@ -1,0 +1,32 @@
+.advantage-title__school,
+.advantage-title__course,
+.advantage-title__portal {
+  font-size: 24px;
+  font-weight: 800;
+  color: #6bffca;
+  margin-bottom: 19px;
+}
+
+.advantage-description__school,
+.advantage-description__course,
+.advantage-description__portal {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f3f6ef;
+  line-height: 17px;
+}
+
+.advantage-description__school {
+  max-width: 373px;
+}
+
+.advantage-description__course,
+.advantage-description__portal {
+  max-width: 406px;
+}
+
+.advantage-title__portal {
+  margin-bottom: 15px;
+  max-width: 318px;
+  line-height: 28px;
+}

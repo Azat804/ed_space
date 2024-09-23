@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Tahoma";
+  src: url("./assets/fonts/Tahoma.eot");
+  src: url("./assets/fonts/Tahoma.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Tahoma.woff") format("woff"),
+    url("./assets/fonts/Tahoma.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./assets/fonts/AvenirNextCyr-Light.eot");
+  src: url("./assets/fonts/AvenirNextCyr-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/AvenirNextCyr-Light.woff") format("woff"),
+    url("./assets/fonts/AvenirNextCyr-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./assets/fonts/AvenirNextCyr-Regular.eot");
+  src: url("./assets/fonts/AvenirNextCyr-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/AvenirNextCyr-Regular.woff") format("woff"),
+    url("./assets/fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./assets/fonts/AvenirNextCyr-Bold.eot");
+  src: url("./assets/fonts/AvenirNextCyr-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/AvenirNextCyr-Bold.woff") format("woff"),
+    url("./assets/fonts/AvenirNextCyr-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}

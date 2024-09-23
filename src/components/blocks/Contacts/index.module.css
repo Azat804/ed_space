@@ -1,0 +1,15 @@
+.section-contacts {
+  background: #f3f6ef;
+  padding: 103px 0px 80px 0px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0px 276px;
+}
+
+.contacts__inner-image {
+  height: 103px;
+}

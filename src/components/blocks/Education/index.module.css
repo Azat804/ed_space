@@ -1,0 +1,28 @@
+.section-education {
+  background: #242029;
+  position: relative;
+  z-index: 2;
+}
+
+.education__title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f3f7ef;
+  margin-bottom: 85px;
+}
+
+.education__wrapper {
+  padding: 79px 0px 84px 0px;
+}
+
+.education__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+
+.education__footer {
+  display: flex;
+  justify-content: center;
+}

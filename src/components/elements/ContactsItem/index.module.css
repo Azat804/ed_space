@@ -1,0 +1,26 @@
+.contacts-list__item {
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-item__title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 0;
+  margin-top: 0px;
+  color: #2f2a37;
+}
+
+.contacts-item__points {
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0px;
+}
+
+.contacts-item__point {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #2f2a37;
+}

@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  gap: 0 31px;
+  align-items: start;
+}
+
+.education__left-card__title {
+  margin-bottom: 24px;
+  max-width: 341px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f3f6ef;
+}
+
+.education__right-card__title {
+  margin-bottom: 14px;
+  max-width: 315px;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f3f6ef;
+}
+
+.education__left-card__description {
+  max-width: 254px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f3f7ef;
+  line-height: 17px;
+}
+
+.education__right-card__description {
+  max-width: 281px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f3f7ef;
+  line-height: 17px;
+}

@@ -1,0 +1,60 @@
+.section-advantage {
+  background-image: url("../../../assets/images/advantage_background.png");
+  background-color: #f3f6ef;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 341px 0px 94px 0px;
+}
+
+.advantage__inner-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px 25px;
+  margin-bottom: 103px;
+}
+
+.advantage__inner-school {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f3f6ef;
+  margin-bottom: 15px;
+}
+
+.advantage__inner-educational-portal {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f3f6ef;
+  line-height: 29px;
+  max-width: 499px;
+  margin-bottom: 49px;
+}
+
+.advantage__inner-price {
+  font-size: 30px;
+  font-weight: 800;
+  color: #6bffca;
+  margin-bottom: 15px;
+}
+
+.advantage__inner-demo {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f3f6ef;
+  line-height: 17px;
+  max-width: 250px;
+  margin-bottom: 68px;
+}
+
+.advantage__inner-description {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 127px;
+}
+
+.advantage-description__title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f3f6ef;
+  margin-bottom: 55px;
+}
