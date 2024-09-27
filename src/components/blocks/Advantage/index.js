@@ -3,7 +3,7 @@ import Button from "../../ui/Button";
 import AdvantageItem from "../../elements/AdvantageItem";
 import advantageImage from "../../../assets/images/advantage__image.png";
 import AdvantageDescrList from "../../elements/AdvantageDescrList";
-function Advantage() {
+function Advantage({ openModal }) {
   const advantages = [
     {
       name: "Неограниченное колличество учеников",
@@ -54,7 +54,11 @@ function Advantage() {
           <p className={Styled["advantage__inner-demo"]}>
             Все готово для запуска. Попробуйте 7-дневный демо-доступ.
           </p>
-          <Button name="Попробовать бесплатно" marginBottom="89px" />
+          <Button
+            name="Попробовать бесплатно"
+            className="button-advantage"
+            onClick={openModal}
+          />
           <div
             className={
               Styled["advantage__inner-description"] + " advantage-description"

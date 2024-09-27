@@ -1,8 +1,8 @@
 import Styled from "./index.module.css";
 
-function Button({ name, marginBottom = "0px" }) {
+function Button({ name, className = "button", onClick = () => {} }) {
   return (
-    <button className={Styled["button"]} style={{ marginBottom: marginBottom }}>
+    <button className={Styled[className]} onClick={onClick}>
       {name}
     </button>
   );

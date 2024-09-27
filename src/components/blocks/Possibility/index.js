@@ -10,7 +10,7 @@ import imgPossibility6 from "../../../assets/images/img_possibility6.png";
 import possibilityGreenCircle from "../../../assets/images/possibility_green_circle.png";
 import possibilityPurpleCircle from "../../../assets/images/possibility_purple_circle.png";
 
-function Possibility() {
+function Possibility({ openModal }) {
   const cards = [
     {
       img: imgPossibility1,
@@ -100,7 +100,7 @@ function Possibility() {
           ))}
         </div>
         <div className={Styled["possibility__footer"]}>
-          <Button name="Попробовать бесплатно" />
+          <Button name="Попробовать бесплатно" onClick={openModal} />
         </div>
         <img
           src={possibilityGreenCircle}
