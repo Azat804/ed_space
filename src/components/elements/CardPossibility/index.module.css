@@ -148,3 +148,27 @@
 .card-record__description {
   max-width: 283px;
 }
+
+.card-organization__image {
+  margin-bottom: 17px;
+}
+
+.card-control__image {
+  margin-bottom: 18px;
+}
+
+.card-administration__image {
+  margin-bottom: 17px;
+}
+
+.card-task__image {
+  margin-bottom: 16px;
+}
+
+.card-monitoring__image {
+  margin-bottom: 9px;
+}
+
+.card-record__image {
+  margin-bottom: 10px;
+}
