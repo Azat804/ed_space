@@ -2,7 +2,7 @@ import Styled from "./index.module.css";
 import Button from "../../ui/Button";
 import mainImage from "../../../assets/images/ed_space_main.png";
 import mainCircle from "../../../assets/images/main_circle.png";
-function Main() {
+function Main({ openModal }) {
   return (
     <main className={Styled["main"]}>
       <div className={"container " + Styled["main__wrapper"]}>
@@ -14,7 +14,7 @@ function Main() {
             Мощный инструмент для организации обучения. Ваши ученики будут в
             восторге!
           </p>
-          <Button name="Попробовать бесплатно" />
+          <Button name="Попробовать бесплатно" onClick={openModal} />
         </div>
         <img src={mainImage} className={Styled["main__image"]} alt="" />
         <img src={mainCircle} className={Styled["main__circle"]} alt="" />

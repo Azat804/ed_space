@@ -1,9 +1,29 @@
-.button {
+.button,
+.button-advantage {
   border-radius: 40px;
   background: linear-gradient(92.02deg, #6bffca 13.34%, #00ff47 129.97%);
   font-size: 14px;
+  text-align: center;
   color: #2f2a37;
   padding: 19px 27px;
+  cursor: pointer;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.button-modal {
+  max-width: 115px;
+  padding: 12px 16px;
+  border-radius: 40px;
+  background: linear-gradient(92.02deg, #6bffca 13.34%, #00ff47 129.97%);
+  font-size: 14px;
+  text-align: center;
+  color: #2f2a37;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.button-advantage {
+  margin-bottom: 89px;
 }

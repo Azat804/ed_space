@@ -1,16 +1,16 @@
 import Styled from "./index.module.css";
-
 function CardPossibility({
+  img,
   title,
   description,
   classCard,
   classCardTitle,
   classCardDescription,
-  children,
+  classCardImage,
 }) {
   return (
     <div className={Styled[classCard]}>
-      {children}
+      <img src={img} alt="cardImage" className={Styled[classCardImage]} />
       <div className={Styled[classCardTitle]}>{title}</div>
       <div className={Styled[classCardDescription]}>{description}</div>
     </div>

@@ -4,7 +4,7 @@ import Button from "../../ui/Button";
 import onlineCourse from "../../../assets/images/online_course.png";
 import corporateTraining from "../../../assets/images/corporate_training.png";
 
-function Education() {
+function Education({ openModal = () => {} }) {
   const cardEducation = [
     {
       title: "Организации онлайн-курсов",
@@ -41,7 +41,7 @@ function Education() {
           ))}
         </div>
         <div className={Styled["education__footer"]}>
-          <Button name="Попробовать бесплатно" />
+          <Button name="Попробовать бесплатно" onClick={openModal} />
         </div>
       </div>
     </section>
